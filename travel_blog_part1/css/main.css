@@ -1,0 +1,54 @@
+/*globalstyles*/
+
+*{ margin: 0px; padding: 0px; list-style-type: none; clear: both;}
+
+body{ max-width: 800px; margin: 30px auto; font-family: 'Open Sans', sans-serif;}
+
+
+/*main styles*/
+.header h1 a {color: orange; font-weight: normal; text-decoration: none;}
+
+.header h2{font-family: 'Lato'; font-weight: normal; padding-top: 5px;}
+
+.header .nav{padding-top: 15px;}
+
+.header .nav a:hover {color: #9E1603;}
+
+.header .nav a{color: gray; padding-right: 10px;}
+
+.article1 , .article2{ padding-bottom: 20px;}
+
+.article1 img , .article2 img{ margin-bottom: 20px; width:800px;}
+
+.article1 h3{color: gray; padding-top: 40px;}
+
+.article1 h2{padding-top: 5px;}
+
+.article1 h2 a {font-weight: normal; text-decoration: none; color: black; }
+
+.article1 img{ padding-top: 15px;}
+
+.firstname::first-letter { float: left; margin: 0 20px 0 0; font-size: 72px; line-height: 1; color: #eee;}
+
+.article1 h4{ padding-top: 10px;}
+
+.article1 h4 a{ color: orange; text-decoration: none; padding-left: 700px;}
+
+.article2 h3{ color: gray; padding-top: 40px;}
+
+.article2 h2 a{ color:black; font-weight: normal; text-decoration: none;}
+
+.article2 h2{ font-family: 'Lato'; font-weight: normal; padding-top: 15px;}
+
+.article2 img{ padding-top: 25px;}
+
+.article2 h4 a{ color: orange; text-decoration: none; padding-left: 700px;}
+
+.footer nav , .footer p{ margin:30px; color:gray; text-align: justify;}
+
+.footer nav a{ color: orange; text-decoration: none;}
+
+.footer nav a:hover{ color: #9E1603;}
+
+
+

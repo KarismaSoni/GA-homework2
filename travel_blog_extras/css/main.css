@@ -1,0 +1,98 @@
+/*globalstyles*/
+
+
+* { margin: 0px; padding: 0px; }
+
+.cf { clear: both;	}
+
+body { font-family:'Lato', 'Open Sans' , sans-serif; }
+
+
+/*main styles*/
+
+.wrapper { width: 1280px; margin: 30px auto; }
+
+.container1 { width: 800px; float: left; padding: 30px 10px 30px 0px; }
+
+
+/*header section , container1*/
+
+.header h1 { padding-bottom: 12px; font-size: 35px; float: left; }
+
+.header h1 a { color: orange; font-weight: normal; text-decoration: none; float: left; }
+
+.header h2 { float: left; font-weight: normal; padding:15px 0 0 20px; color: gray; font-size: 18px; }
+
+.header .nav {	background-color: gray; border: 1px solid; list-style-type: none; padding: 0px 10px; border-radius: 1px; }
+
+.header .nav ul { text-align: center; }
+
+.header .nav ul li { display: inline-block; width: 200px; border-right: 1px solid white; padding: 15px 0; }
+
+.header .nav ul li:last-child { border-right: none; }
+
+.header .nav a:hover { color: #9E1603; }
+
+.header .nav a { color: white; padding-right: 10px; text-decoration: none; display: inline; }
+
+
+/*article1 , container1*/
+
+.article1 , .article2 { padding-bottom: 20px; }
+
+.article1 img , .article2 img { margin-bottom: 20px; width:800px; }
+
+.article1 h3 { color: gray; padding-top: 40px; font-weight: normal; }
+ 
+.article1 h2 { padding-top: 5px; }
+
+.article1 h2 a { font-weight: normal; text-decoration: none; color: black; }
+
+.article1 img{ padding-top: 15px; }
+
+.firstname::first-letter { float: left; margin: 0 20px 0 0; font-size: 72px; line-height: 1; color: #eee; }
+
+.article1 h4 , .article2 h4 { padding: 25px 680px; }
+
+.article1 h4 a { color: orange; text-decoration: none; }
+
+
+/*article2 , container2*/
+
+.article2 h3{ color: gray; padding-top: 40px; font-weight: normal; }
+
+.article2 h2 a { color:black; font-weight: normal; text-decoration: none; } 
+
+.article2 h2 { font-weight: normal; padding-top: 15px; }
+
+.article2 img { padding-top: 25px; } 
+
+.article2 h4 a { color: orange; text-decoration: none; }
+
+
+/*footer ,container1*/
+
+.footer nav , .footer p { margin:30px; color:gray; text-align: justify; }
+
+.footer nav a { color: orange; text-decoration: none; }
+
+.footer nav a:hover { color: #9E1603; }
+
+
+/*aside container2*/
+
+.container2 { width: 400px; float: right; padding: 90px 0px; }
+
+.container2 .module h4 { color: gray; font-weight: normal; }
+
+.container2 .module p { padding-bottom: 20px; }
+
+.container2 .module p a { color: orange; text-decoration: none; float: right; }
+
+.container2 .module { padding: 20px 30px; }
+
+.container2  .ad img { width: 340px; }
+
+.container2  .module ul { padding: 20px 40px; }
+
+.container2 .module ul li a { color: orange; text-decoration: none; padding-top:5px; }
